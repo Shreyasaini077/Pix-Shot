@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 8px 0px;
+    background-color: #fff;
+    z-index: 999 !important;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid#b6b3b3;
+}
+.mynav ul{
+    display: flex;
+    align-items: center;
+}
+.mynav ul li{
+    display: inline-block;
+}
+.mynav ul li a{
+    text-align: start;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.mybtn a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid#343434;
+    cursor: pointer;
+    transition: .8s;
+}
+.button-box{
+    width: 100%;
+    text-align: end;
+}
+.mybtn a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.swiper {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.swiper-slide {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    background: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.bg{
+    width: 100% !important;
+    height: 560px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 5.jpeg);
+    background-size: cover;
+}
+
+.bg1{
+    width: 100% !important;
+    height: 560px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 6.jpeg);
+    background-size: cover;
+}
+
+.bg2{
+    width: 100% !important;
+    height: 560px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 16.jpeg);
+    background-size: cover;
+}
+
+.bg3{
+    width: 100% !important;
+    height: 560px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 9.jpeg);
+    background-size: cover;
+}
+
+.bg4{
+    width: 100% !important;
+    height: 560px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 0.jpeg);
+    background-size: cover;
+}
+
+.bg5{
+    width: 100% !important;
+    height: 560px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 15.jpeg);
+    background-size: cover;
+}
+
+.hyper{
+    margin-top: 130px !important;
+}
+
+.master{
+    font-weight: bolder !important;
+}
+
+.fact{
+    width: 140px !important;
+    height: 56px !important;
+    font-size: 21px !important;
+}
+.sahara{
+    font-size: 20px ;
+}
+
+.uu{
+    height: 50px;
+    width: 160px;
+    color: white !important;
+    transition: .5s;
+    font-size: 18px !important;
+    border: 1px solid black !important;
+    background-color: rgb(240, 210, 18) !important;
+}
+
+.uu:hover{
+    color: black !important;
+    background-color: white !important;
+    border: 3px solid black !important;
+}
+
+
+.red{
+    margin-left: -180px;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    width: 600px !important;
+    justify-content: space-between;
+    background-color: red !important;
+}
+
+.nn{
+    font-size: 50px !important;
+}
+
+.local{
+    margin-top: 90px !important;
+    background-color: rgb(230, 230, 230) !important;
+}
+
+.vin{
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
+}
+
+.logo{
+    font-size: 35px !important;
+    color: red !important;
+}
+
+.logo2{
+    font-size: 35px !important;
+    color: red !important;
+}
+
+.logo3{
+    font-size: 35px !important;
+    color: red !important;
+}
+
+
+.logo4{
+    font-size: 35px !important;
+    color: red !important;
+}
+
+.fun{
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.fun:hover{
+    color: red !important;
+}
+
+.lol{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%  !important;
+    transition: 0.3s;
+}
+
+.lol:hover{
+    color: white !important;
+    background-color: red !important;
+}
+
+.fear{
+    font-weight: bolder !important;
+}
+
+.dust{
+    width: 60px !important;
+    height: 60px !important;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.dust:hover{
+    background-color: red !important;
+    color: white ;
+}
+
+.pic{
+    width: 500px !important;
+}
+
+.mybg{
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 9.jpeg);
+    width: 100%;
+    height: 350px !important;
+    background-size: cover;
+}
+
+.upon{
+    margin-top: -120px !important;
+}
+.tot{
+    background-color: red !important;
+}
+.mybgg{
+    transition: 0.3s;
+}
+.mybgg:hover{
+    background-color: red ;
+    color: white !important;
+}
+
+
+.level{
+    border-radius: 50% !important;
+    margin-left: 280px !important;
+    transition: .3s;
+}
+
+.level:hover{
+    background-color: red !important;
+    color: white !important;
+}
+
+
+.mybob{
+    background-color: black !important;
+    height: 300px !important;
+}
+
+.bg28{
+    background-color: black !important;
+}
+
+
+.mygov{
+    background-color: black !important;
+}
+
+.mail{
+    width: 400px !important;
+    text-align: start;
+    height: 50px !important;
+    border-radius: 10px !important;
+    padding: 25px;
+    border: none ;
+}
+
+.rare{
+    height: 50px !important;
+    width: 200px ;
+    margin-left: 10px !important;
+}
+
+.yup{
+    font-weight: bold !important;
+    transition: 0.3s;
+}
+.yup:hover{
+    color: red !important;
+}
+
+.yup2{
+    transition: 0.3s;
+    color: gainsboro;
+}
+
+.yup2:hover{
+    color: yellow;
+}
+
+
+.fan{
+    background-color:yellow !important;
+    color:black !important;
+
+}
+.fan:hover{
+    background-color: red !important;
+    color: white !important;
+
+}
+
+/* about */
+
+.mybg32{
+    background: linear-gradient(rgba(0, 0, 0, 0.585),rgba(2, 1, 3, 0.4),rgba(0,0,0)), url(img/asset\ 16.jpeg);
+    height: 300px;
+    background-size: cover;
+    background-position: center !important;
+}
+
+.font{
+    font-weight: bolder !important;
+}
+
+.sup{
+    background-color: red !important;
+    font-weight: 400 !important;
+    width: 170px !important;
+    height: 40px;
+}
+
+.myone{
+    width: 100% !important;
+    height: 500px !important;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.771),rgba(0, 0, 0, 0.771),rgba(0,0,0)), url(img/asset\ 0.jpeg);
+    
+}
+
+/* services */
+
+.awesome{
+    width: 40px;
+    height: 40px;
+    font-size: 14px !important;
+    border-radius: 50% !important;
+    background-color: rgba(238, 238, 238, 0.941) !important;
+}
+
+.bindas{
+    background-color: rgba(250, 249, 249, 0.715) !important;
+}
+
+.king{
+    transition: 0.3s;
+    border-radius: 20px !important;
+    cursor: pointer;
+}
+.king:hover{
+    background-color: red !important;
+}
+
+.cool{
+    width: 50px ;
+    height: 50px;
+    background-color: white !important;
+    border-radius: 50% !important;  
+}
+
+
+/* blog pages */
+
+.fake{
+    background-color: red !important;
+    height: 48px !important;
+    width: 140px !important;
+}
+
+.side{
+    margin: 40px !important;
+    /* padding: 50px !important; */
+}
+
+
+/* contact pages */
+
+.window{
+    width: 50px;
+    height: 50px;
+    color: red !important;
+    border-radius: 50% !important;
+    background-color: rgb(243, 242, 242) !important;
+}
+
+.sum{
+    width: 100% !important;
+    height: 50px !important;
+    border-radius: 20px !important;
+    text-align: start;
+    padding: 20px; 
+}
+
+.sum2{
+    width: 100% !important;
+    height: 130px !important;
+    border-radius: 20px !important;
+    padding-left: 20px;
+}
+
+.dish{
+    width: 150px !important;
+    height: 60px !important;
+    border-radius: 40px !important;
+
+}
+
+
+
+
+
+
